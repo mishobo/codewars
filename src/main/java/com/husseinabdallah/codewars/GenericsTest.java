@@ -14,6 +14,8 @@ record Test<T, U> (T obj1, U obj2){
     }
 }
 
+record ApiResult<T>(T data, String msg, boolean success) {}
+
 record Person (String name){}
 
 record People (List<Person> personList){}
