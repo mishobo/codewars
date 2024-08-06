@@ -16,7 +16,11 @@ Threads can be created by using two mechanisms :
 
 - Common use cases for multi-threading include parallelizing computational tasks, managing user interfaces, and handling concurrent I/O operations.
 
-
+# Use Case Comparison:
+- Multi-Threading: Ideal for CPU-bound tasks that can be parallelized, such as image processing, video encoding, or mathematical computations, 
+  as well as scenarios requiring responsive user interfaces.
+- Asynchronous Programming: Well-suited for handling I/O-bound operations, such as network communication, file I/O, and database access, 
+  where non-blocking execution and scalability are essential.
 
 * Resources used:-
 1. Multi-Threading Vs Asynchronous by Sundar Govindarajan PMP®, MCSA, MCP, MCSE(Cloud), MCSD, MS(Azure)
